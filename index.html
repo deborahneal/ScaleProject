@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>scale</title>
+</head>
+<body>
+   <h1>scale (pounds to kg)</h1> 
+   <div class="container">
+       <p>Enter Weight value here👉:
+       <input type="number" id="input" placeholder="Pounds"
+       oninput="scale(this.value)" 
+       onchange="scale(this.value)">
+    </p>
+       <p>Kg:<span id="outputkilograms"></span></p>
+
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
